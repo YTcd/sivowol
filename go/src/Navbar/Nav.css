@@ -1,0 +1,52 @@
+.Nav {
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    background-color:#F0F0F0;
+    display: flex;
+  }
+
+  
+  .Arrow{
+    content: '';
+    width: 10px; /* 사이즈 */
+    height: 10px; /* 사이즈 */
+    border-top: 2px solid #121212; /* 선 두께 */
+    border-right: 2px solid #121212; /* 선 두께 */
+    display: inline-block;
+    transform: rotate(225deg); /* 각도 */
+    position: absolute;
+    margin:5vw;
+  }
+
+  .agreee {
+    color: black;
+    align-self: left;
+    margin:10vw;
+  }
+  
+  .Navi1 {
+    display: flex;
+    align-items: center;
+    flex:1;
+    
+
+  }
+
+  .Navi2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navs {
+    color:black;
+    margin:3vw;
+  }
+  
+  .dic{
+      color:black;
+      margin:5vw;
+  }
+  .공백{
+    height: 8vh;
+  }

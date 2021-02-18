@@ -1,0 +1,59 @@
+.형식{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    
+}
+.텍스트필드{
+    border-radius: 5px;
+    background-color:#F0F0F0;
+    border-color : #F0F0F0;
+    width:100%;
+    padding: 7px;
+    margin:10px;
+}
+
+.생년월일앞자리{
+    display: flex;
+    flex-direction: row;
+}
+
+.생년월일{
+    border-radius: 5px;
+    background-color:#F0F0F0;
+    border-color : #F0F0F0;
+    flex: auto;
+    margin-left: 35px;
+    margin-right: 10px;
+    width: 160px;
+    padding: 7px;
+
+}
+
+.앞자리{
+    border-radius: 5px;
+    background-color:#F0F0F0;
+    border-color : #F0F0F0;
+    flex: auto;
+    width: 20px;
+    padding: 7px;
+}
+.파일첨부{
+    justify-content: right;
+    text-align:right;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.글자{
+    display:flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+    font-size: 14px;
+    text-align:center;
+}

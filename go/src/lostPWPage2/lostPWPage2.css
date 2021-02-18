@@ -1,0 +1,54 @@
+.형식{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.상단바{
+    margin:10px;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    height: 25vh;
+}
+
+.searchID{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.searchPW{
+}
+
+.ctx{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.텍스트필드{
+    border-radius: 5px;
+    background-color:#F0F0F0;
+    border-color : #F0F0F0;
+    width:100%;
+    padding: 7px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+}
+
+.표기{
+    font-size:9px;
+    margin-left:8vw;
+}
+
+.bot{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
